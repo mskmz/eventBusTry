@@ -48,15 +48,4 @@ public class SubscriberMethod {
   public boolean isSticky() {
     return sticky;
   }
-
-  @Override
-  public String toString() {
-    return "SubscriberMethod{" +
-        "methodName='" + methodName + '\'' +
-        ", threadMode=" + threadMode +
-        ", eventType=" + eventType +
-        ", priority=" + priority +
-        ", sticky=" + sticky +
-        '}';
-  }
 }

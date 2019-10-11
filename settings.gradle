@@ -1,0 +1,2 @@
+include ':app', ':eventBusAnnotation', ':eventBusAnnotationProcess', ':EventBus'
+rootProject.name='EventBusTry'
